@@ -1,0 +1,234 @@
+@import url(https://fonts.googleapis.com/css?family=Paytone+One);
+
+@font-face{
+	font-family: 'Paytone One', sans-serif;
+	src: url(fonts/PaytoneOne.ttf),
+	url(fonts/PaytoneOne.woff),
+	url(fonts/PaytoneOne.svg);
+}
+
+
+*{		margin: 0px; 
+		padding: 0px;
+}
+
+#top{
+	height: 200px;
+	width: 1200px;
+	background-color: #000080;
+	margin: auto;
+	border-radius: 30px;
+	box-shadow: 10px 10px 10px #484848;
+}
+
+body{
+	background-color:  #0d0d0d;
+}
+
+h1{
+	text-align: center;
+	color: #FFFFFF;
+	font-family: 'Paytone One', sans-serif;
+	font-size: 60px;
+	padding-top: 50px;
+}
+
+#menu{
+	height: 50px;
+	width: 1200px;
+	background-color: #101010;
+	margin-top: 20px;
+	margin-left: 80px;
+}
+
+#menu{
+	font-family: Helvetica;
+}
+
+#menu ul{
+	padding-top: 10px;
+	padding-left: 350px;	
+}
+
+#menu ul li{
+	background-color: gray;
+	list-style-type: none;
+	float: left;
+	margin-left: 10px;
+	text-align: center;	
+}
+
+#menu a{
+	text-decoration: none;
+	color: white;
+	width: 100px;
+	height: 25px;
+	background-color: #595959;
+	background-image: url(imgs/negro.png);
+	padding-top: 5px; /* alinear el texto en vertical */
+	display: block; /* La "magia" del menu */
+}
+
+#menu a:hover{
+	background-image:url(imgs/celeste.png);
+	color: yellow;
+}
+
+#main{
+	height: 1700px;
+	width: 1200px;
+	background-color: gray;
+	position: relative;
+	top: ;
+	bottom: ;
+	right:;
+	left: 75px;
+}
+
+#menu1{
+	height: 1700px;
+	width: 200px;
+	font-family: Helvetica;
+	background-color: #080808;
+	position: relative;
+	top: ;
+	bottom: ;
+	right:;
+	left: 0px;
+}
+
+#menu1 ul{
+	
+}
+
+#menu1 ul li{/* Menu Vertical */
+	background-color:;
+	width: 100px;
+	height: 25px;
+	list-style-type: none;
+	margin-left: 50px;
+	margin-top: 10px;
+	text-align: center;
+	padding-top: 5px;
+	background-image: url(imgs/g.png);
+}
+
+#menu1 a{
+	text-decoration: none;
+	color: white;
+	width: 100px;
+	height: 25px;
+	background-color: #595959;
+	background-image: url(imgs/negro.png);
+	padding-top: 5px; /* alinear el texto en vertical */
+	display: block; 
+} 
+
+#menu1 a:hover{
+	background-image:url(imgs/celeste.png);
+	color: yellow;
+}
+
+#notas{
+	height: 1700px;
+	width: 1000px;
+	background-color: black;
+	position: relative;
+	top: ;
+	bottom: 1700px;
+	right:;
+	left: 200px;
+}
+
+#carrusel{
+	position: relative;
+	top:;
+	bottom:;
+	right:;
+	left:;
+}
+
+
+#titulo{
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: #41e1e1;
+	font-size: 22px;
+	padding-top: 35px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 7px;
+}
+
+#texto0{
+	text-align: justify;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #0000FF;
+}
+
+#texto1{
+	text-align: justify;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #0000FF;
+}
+
+#parte1{
+	position: relative;
+	top: 20px;
+	bottom:;
+	left:;
+	right:; 
+	color: #FFFFFF;
+	font-family: Helvetica;
+	text-align: justify;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#parte2{
+	font-family: Helvetica;
+	color: #FFFFFF;
+	position: relative;
+	top: 30px;
+	bottom:;
+	left:;
+	right:;
+	font-family: Helvetica;
+	text-align: justify;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#parte3{
+	font-family: Helvetica;
+	color: #FFFFFF;
+	position: relative;
+	top: 30px;
+	bottom:;
+	left:;
+	right:;
+	font-family: Helvetica;
+	text-align: justify;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+h2{
+	text-align: center;
+	font-family: Helvetica;
+}
+
+#footer{
+	height: 50px;
+	width: 1200px;
+	background-color: #0073e6;
+	margin: auto;
+}
+
+#pie{
+	padding-top: 15px;
+	padding-left: 20px;
+	color: #FFFFFF;
+}

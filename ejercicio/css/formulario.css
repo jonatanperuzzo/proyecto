@@ -1,0 +1,160 @@
+*{		margin:0px; 
+		padding: 0px;
+}
+
+body{
+	background-color:  #0d0d0d;
+}
+
+header{
+	height: 200px;
+	width: 90%;
+	background-color: black;
+	border-radius: 10px;
+	margin: auto;
+}
+
+h1{
+	text-align: center;
+	color: #FFFFFF;
+	font-family: Helvetica;
+	font-size: 60px;
+	padding-top: 50px;
+}
+
+nav{
+	height: 50px;
+	width: 90%;
+	background-color: #101010;
+	border-radius: 10px;
+	margin: auto;
+}
+
+nav{
+	font-family: Helvetica;
+}
+
+nav ul{
+	padding-top: 10px;
+	padding-left: 350px;	
+}
+
+nav ul li{
+	background-color: gray;
+	list-style-type: none;
+	float: left;
+	margin-left: 10px;
+	text-align: center;	
+}
+
+nav a{
+	text-decoration: none;
+	color: white;
+	width: 100px;
+	height: 25px;
+	background-color: #595959;
+	background-image: url(imgs/negro.png);
+	padding-top: 5px; /* alinear el texto en vertical */
+	display: block; /* La "magia" del menu */
+}
+
+nav a:hover{
+	background-image:url(imgs/celeste.png);
+	color: yellow;
+}
+
+#section{
+	height: 550px;
+	width: 90%;
+	background-color: lavender;
+	font-family: Helvetica;
+	font-size: 16px;
+	text-align: center;
+	border-radius: 1em;
+	position: relative;
+	top: ;
+	bottom: ;
+	right:;
+	left: 5%;
+}
+
+fieldset{
+	background: gray;
+	border: thin solid skyblue;
+	border-radius: 1em;
+	text-align: center;
+}
+
+input[type="button"]{
+	background: #f60;
+	border: thin solid transparent;
+	border-radius: .5em;
+	color: #fff;
+	cursor: pointer;
+	font-size: 1em;
+	padding: 10px;
+}
+
+#nav1{
+	height: 6500px;
+	width: 200px;
+	font-family: Helvetica;
+	background-color: #080808;
+	position: relative;
+	top: ;
+	bottom: ;
+	right:;
+	left: 0px;
+}
+
+#nav1 ul{
+	
+}
+
+#nav1 ul li{/* Menu Vertical */
+	background-color:;
+	width: 100px;
+	height: 25px;
+	list-style-type: none;
+	margin-left: 50px;
+	margin-top: 10px;
+	text-align: center;
+	padding-top: 5px;
+	background-image: url(imgs/g.png);
+}
+
+#nav1 a{
+	text-decoration: none;
+	color: white;
+	width: 100px;
+	height: 25px;
+	background-color: #595959;
+	background-image: url(imgs/negro.png);
+	padding-top: 5px; /* alinear el texto en vertical */
+	display: block; 
+} 
+
+#menu1 a:hover{
+	background-image:url(imgs/celeste.png);
+	color: yellow;
+}
+
+
+
+footer{
+	height: 50px;
+	width: 90%;
+	background-color: #1a1a1a;
+	border-radius: 10px;
+	position: relative;
+	top: 40px;
+	bottom:;
+	left: 70px;
+	right:; 
+}
+
+#pie{
+	padding-top: 15px;
+	padding-left: 20px;
+	color: #FFFFFF;
+}
